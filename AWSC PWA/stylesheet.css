@@ -1,0 +1,56 @@
+body{
+    background: rgb(238, 237, 237);
+    font: 1em sans-serif;
+    padding: 2rem;
+}
+
+.menu{
+    align-items: center;
+    background-color: rgb(6, 112, 6);
+    text-align: center;
+    padding: 0.2rem;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 5px 50%;
+}
+
+.collection{
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 0.2rem;
+    border-radius: 5px;
+    box-shadow: 2px 5px 50%;
+    text-align: center;
+}
+p{
+    font-size: small;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    border-radius: 15px;
+    padding: 0.5rem;
+    text-align:center;
+}
+
+input:required {
+    border: 1px solid;
+}
+
+input:invalid {
+    border: 2px solid red;
+  }
+
+.review{
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 0.2rem;
+    border-radius: 5px;
+    box-shadow: 2px 5px 50%;
+    text-align: center;
+}

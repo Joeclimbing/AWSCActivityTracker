@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AWSC Activity Trackers</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="stylesheet" href="/stylesheet.css">
+    </head>
+    <body>
+            <div class="menu">
+                <h1>AWSC Log</h1>
+            </div>
+            <br>
+            <div class="collection">
+                <h1>Submit an Activity</h1>
+                <form action="petesUrlHere">
+                    <label for="participant">What is your participant ID?</label>
+                    <br>
+                    <input required minlength="4" maxlength="4" type="text" id="participant" name="participant"><p>This is 4 number code</p>
+                    <br>
+                    <label for="activity">Which activity did you complete?</label>
+                    <br>
+                    <input required minlength="5" maxlength="5" type="text" id="activity" name="activity"><p>This is a 5 number code</p>
+                    <br>
+                    <button>Save</button>
+                </form>
+            </div>
+            <div class="review">
+                <h1>View the Activities Completed</h1>
+                <form action="pullURL">
+                    <label for="participant">Who's Activities would you like to see?</label>
+                    <input required minlength="4" maxlength="4" type="text" id="participant" name="participant">
+                    <br>
+                    <button>Search</button>
+                </form>
+            </div>
+       
+
+        <script>
+            if (ServiceWorker in navigator) {
+                navigator.serviceWorker.register('/service-worker.js');
+            }
+        </script>
+    </body>
+</html>
