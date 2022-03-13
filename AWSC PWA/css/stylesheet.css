@@ -1,5 +1,5 @@
 body{
-    background: rgb(238, 237, 237);
+    background: rgb(6, 112, 6);
     font: 1em sans-serif;
     padding: 2rem;
 }
@@ -30,6 +30,7 @@ button {
     margin-top: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
+    align-items: center;
 }
 
 input{
@@ -53,4 +54,10 @@ input:invalid {
     border-radius: 5px;
     box-shadow: 2px 5px 50%;
     text-align: center;
+}
+.Options{
+    align-items: center;
+    background-color: white;
+    flex: content;
+    -ms-flex-align: center;
 }
