@@ -9,19 +9,19 @@
         <link rel="stylesheet" href="./css/stylesheet.css">
     </head>
     <body>
-            <div class="menu">
+            <div class="Title">
                 <h1>AWSC Event Log</h1>
             </div>
             <br>
-            <div class="Options">
+            <div class="options">
                 <form method="get" action="./html/input.html">
-                    <button type="submit">Add an Activity</button>
+                    <button class="options" type="submit">Add an Activity</button>
                 </form>
                 <form method="get" action="./html/Output.html">
-                    <button type="submit">View completed Activities</button>
+                    <button class="options" type="submit">View completed Activities</button>
                 </form>
             </div>
-            
+
         <script>
             if (ServiceWorker in navigator) {
                 navigator.serviceWorker.register('/service-worker.js');

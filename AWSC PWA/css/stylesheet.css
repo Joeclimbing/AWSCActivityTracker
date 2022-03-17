@@ -1,36 +1,32 @@
 body{
-    background: rgb(6, 112, 6);
+    background-color: rgb(6, 112, 6);
     font: 1em sans-serif;
     padding: 2rem;
+    align-items: center;
+    text-align: center;
 }
 
-.menu{
-    align-items: center;
-    background-color: rgb(6, 112, 6);
-    text-align: center;
-    padding: 0.2rem;
+h1{
     color: white;
-    border-radius: 5px;
-    box-shadow: 2px 5px 50%;
+}
+.Title{
+    padding-top: 25%;
+}
+.options{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+form{
+    padding:1rem;
 }
 
-.collection{
-    align-items: center;
-    background-color: whitesmoke;
-    padding: 0.2rem;
-    border-radius: 5px;
-    box-shadow: 2px 5px 50%;
-    text-align: center;
-}
-p{
-    font-size: small;
-}
-
-button {
-    margin-top: 1rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    align-items: center;
+button.options{
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    font-size: 1rem;
+    border-color: white;
+    border: none;
+    letter-spacing: .05rem;
 }
 
 input{
@@ -47,17 +43,3 @@ input:invalid {
     border: 2px solid red;
   }
 
-.review{
-    align-items: center;
-    background-color: whitesmoke;
-    padding: 0.2rem;
-    border-radius: 5px;
-    box-shadow: 2px 5px 50%;
-    text-align: center;
-}
-.Options{
-    align-items: center;
-    background-color: white;
-    flex: content;
-    -ms-flex-align: center;
-}
