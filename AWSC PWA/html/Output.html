@@ -7,23 +7,28 @@
         <link rel="stylesheet" href="../css/stylesheet.css">
     </head>
     <body>
-        <div class="menu">
-            <h1>AWSC Completed Activities</h1>
-        </div>
-        <br>
-        <div class="review">
-            <h1>View the Activities Completed</h1>
-            <form action="pullURL">
-                <label for="participant">Who's Activities would you like to see?</label>
-                <input required minlength="4" maxlength="4" type="text" id="participant" name="participant">
-                <br>
-                <button>Search</button>
-            </form>
-        </div>
-        <div class="backbtn">
-            <form method="get" action="../index.html">
-                <button class="options" type="submit">home</button>
-            </form>
-        </div>
+        <header>
+            <div class="menu">
+                <h1>AWSC Completed Activities</h1>
+            </div> 
+        </header>
+        <main>
+            <br>
+            <div class="review">
+                <h1>View the Activities Completed</h1>
+                <form action="pullURL">
+                    <label for="participant">Who's Activities would you like to see?</label>
+                    <input required minlength="4" maxlength="4" type="text" id="participant" name="participant">
+                    <br>
+                    <button>Search</button>
+                </form>
+            </div>
+            <div class="backbtn">
+                <form method="get" action="../index.html">
+                    <button class="options" type="submit">home</button>
+                </form>
+            </div>
+        </main>
+        
     </body>
 </html>
